@@ -26,7 +26,7 @@ import haversine from 'haversine-distance'
 
 ```javascript
 
-For example i want calculate distance beeteen Paris and Tokyo :
+For example i want calculate distance bewteen Paris and Tokyo :
 
 // Define coordinates
 paris = { 48.864716, 2.349014 }
