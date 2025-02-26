@@ -16,7 +16,7 @@ A TypeScript implementation of the Haversine formula to calculate the great-circ
 
 ```typescript
 
-import haversine from 'haversine-distance'
+import haversine from 'formula-haversine'
 
 ```
 
