@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-✓-blue.svg)](https://www.typescriptlang.org/)
 
 
-A implementation of the Haversine formula to calculate the great-circle distance between two geographical points on Earth. The distance is returned in kilometers.
+[Only for Typescript] -The fatest implementation of the Haversine formula to calculate the great-circle distance between two geographical points on Earth. The distance is returned in kilometers.
 
 
 ## 🔍️ Example
@@ -16,7 +16,7 @@ A implementation of the Haversine formula to calculate the great-circle distance
 
 ```typescript
 
-import formulaHaversine from 'formula-haversine'
+import haversine from 'formula-haversine'
 
 ```
 
