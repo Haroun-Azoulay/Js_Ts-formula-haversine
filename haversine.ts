@@ -2,7 +2,7 @@
 // Φ : Latitude
 // λ : Longitude
 
-export function formulaHaversine(
+function formulaHaversine(
   phiUser: number,
   lambdaUser: number,
   phiX: number,
@@ -30,7 +30,7 @@ export function formulaHaversine(
   let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
   let d = r * c;
-  return Math.trunc(d);
+  return d < 0 ? Math.ceil(d) : Math.floor(d);
 }
 
 export default formulaHaversine;

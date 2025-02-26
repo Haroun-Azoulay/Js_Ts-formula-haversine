@@ -1,7 +1,8 @@
 {
   "name": "formula-haversine",
-  "version": "1.0.7",
-  "description": "[Only for Typescript] - The fastest implementation of the haversine algorithm to calculate distances between to coordinates",
+  "version": "1.0.10",
+  "main": "haversine.js",
+  "description": "The fastest implementation of the haversine algorithm to calculate distances between to coordinates",
   "keywords": [
 
     "haversine",
