@@ -26,12 +26,9 @@ import haversine from 'formula-haversine'
 
 ```javascript
 
-For example i want calculate distance bewteen Paris and Tokyo :
+// For example i want calculate distance bewteen Paris: { 48.864716, 2.349014 } and Tokyo: { 35.67619190, 139.65031060 } :
 
-// Define coordinates
-paris = { 48.864716, 2.349014 }
-tokyo = { 35.67619190, 139.65031060  }
-
+// Define coordinates.
 const parisLatitude = 48.864716
 
 const parisLongitude = 2.349014
@@ -40,7 +37,7 @@ const tokyoLatitude = 35.67619190
 
 const tokyoLongitude = 139.65031060
 
-// Compute the distance
+// Compute the distance.
 const distance = haversine(parisLatitude, parisLongitude, tokyoLatitude, tokyoLongitude);
 
 // Note: The result is in kilometers, rounded down to the nearest integer.
