@@ -2,10 +2,8 @@
 
 [![Version](http://img.shields.io/npm/v/formula-haversine.svg)](https://www.npmjs.org/package/formula-haversine)
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-✓-blue.svg)](https://www.typescriptlang.org/)
 
-
-[Only for Typescript] -The fatest implementation of the Haversine formula to calculate the great-circle distance between two geographical points on Earth. The distance is returned in kilometers.
+[Javascript/Typescript] - The fatest implementation of the Haversine formula to calculate the great-circle distance between two geographical points on Earth. The distance is returned in kilometers.
 
 
 ## 🔍️ Example
@@ -14,9 +12,12 @@
 ### ✨ Import
 
 
-```typescript
+```javascript
 
 import haversine from 'formula-haversine'
+// or
+const haversine = require('formula-haversine')
+
 
 ```
 

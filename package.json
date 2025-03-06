@@ -1,33 +1,27 @@
 {
   "name": "formula-haversine",
-  "version": "1.0.13",
-  "main": "haversine.js",
-  "description": "[Only for Typescript] - The fastest implementation of the haversine algorithm to calculate distances between to coordinates",
+  "version": "1.1.19",
+  "description": "[Javascript/Typescript] - The fastest implementation of the haversine algorithm to calculate distances between to coordinates",
   "keywords": [
-
     "haversine",
-
     "distance",
-
     "geography",
-
     "latitude",
-
     "longitude",
-
     "coordinates",
-
     "math",
-
     "kilometers"
-
   ],
   "repository": {
-
     "type": "git",
-
     "url": "https://github.com/Haroun-Azoulay/ts-formula-haversine"
-
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
   },
   "author": "Haroun-Azoulay",
   "license": "MIT"
